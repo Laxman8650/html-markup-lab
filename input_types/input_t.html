@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input Types</title>
+  </head>
+  <body>
+    <h1>Input Types</h1>
+    <p>
+      Input types refer to the various formats and structures of data that can
+      be provided as input to a system, function, or process. These types can
+      include:
+    </p>
+    <ul>
+      <li>
+        <strong>Text</strong>: Plain text input, such as strings or paragraphs.
+      </li>
+      <li>
+        <strong>Numeric</strong>: Numbers, including integers and floating-point
+        values.
+      </li>
+      <li><strong>Boolean</strong>: True/false values.</li>
+      <li><strong>Date/Time</strong>: Date and time formats.</li>
+      <li>
+        <strong>File</strong>: Uploaded files, such as images or documents.
+      </li>
+      <li>
+        <strong>Structured Data</strong>: JSON, XML, or other structured
+        formats.
+      </li>
+    </ul>
+    <br />
+    <br />
+    <!-- Input fields
+        -->
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" placeholder="Your Name" required />
+    <br />
+    <!-- Email -->
+    <label for="email">Email:</label>
+    <input
+      type="email"
+      id="user_email"
+      name="email"
+      placeholder="rah@gamil.com"
+      required
+    />
+    <br />
+    <!-- Password -->
+    <label for="password">Your Password:</label>
+    <input type="password" id="pass" name="password" required />
+    <br />
+    <!-- Date of Birth -->
+    <label for="dob">D.O.B</label>
+    <input type="date" id="dob" name="date of birth" />
+    <br />
+    <!-- Colour -->
+    <label for="colour">Fav_Colour:</label>
+    <input type="color" name="fav_colour" id="colour" />
+    <br />
+    <br />
+    <!-- File -->
+    <label for="file">Upload file:</label>
+    <input type="file" name="file" id="file" />
+    <br />
+    <!-- Range(Volume) -->
+    <label for="intrest"
+      >What is your interest rate when filling out this form:
+    </label>
+    <input type="range" id="intrest" name="range" />
+    <br />
+
+    <!-- Select Option -->
+    <label for="Your city">Your City: </label>
+    <select name="country" id="country">
+      <option value="chamoli">Chamoli</option>
+      <option value="Dheradun">Dheradun</option>
+      <option value="Rudrparayag">Rudraprayag</option>
+      <option value="Nanital">Nanital</option>
+      <option value="None">None of these</option>
+    </select>
+    <br />
+
+    <!-- Raido -->
+    <label for="Gender">Gender: </label>
+    Male<input type="radio" name="gender" id="male" value="male" /> Female<input
+      type="radio"
+      name="gender"
+      id="female"
+      value="female"
+    />
+    Other<input type="radio" name="gender" id="other" value="other" />
+    <br />
+
+    <!-- Checkbox -->
+    <label for="hobbies">Hobbies-></label>
+    Dancing<input type="checkbox" name="hobbies" value="dancing" />
+    reading<input type="checkbox" name="hobbies" value="reading" /> Coding<input
+      type="checkbox"
+      name="hobbies"
+      value="coding"
+    />
+    <br />
+    <!-- Text area -->
+    <textarea
+      name="story"
+      id="story"
+      colspan="20"
+      rawspan="40"
+      font-family="serif"
+    >
+Please note Here</textarea
+    >
+    <br />
+    <!-- Buttons Type -->
+    <button type="submit" id="submit">↟Click here</button>
+    <button type="reset" id="reset">↻Reset</button>
+  </body>
+</html>

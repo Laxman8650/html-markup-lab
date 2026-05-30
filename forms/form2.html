@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form2</title>
+  </head>
+  <body>
+    <!-- Fildset & Legend -->
+    <form action="/project/index.html">
+      <fieldset>
+        <legend>Personal Details</legend>
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="e.g.mohit"
+          required
+        />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="user_email" />
+        <label for="dob">Dob:</label>
+        <input type="date" name="dob" id="dob" required />
+      </fieldset>
+      <fieldset>
+        <legend>Acount Deatils</legend>
+        <label for="Acount">Acount_no:</label>
+        <input type="tel" name="acount_no" id="acount" />
+        <label for="aadhar">Aadhar_no:</label>
+        <input
+          type="tel"
+          name="aadhar"
+          id="aadhar"
+          inputmode="numeric"
+          pattern="[0-9]{12}"
+          placeholder="123567"
+        />
+        <label for="Mobile">Phone_no:</label>
+        <input
+          type="tel"
+          name="phone_no"
+          id="phone"
+          inputmode="numeric"
+          pattern="[0-9]"
+          maxlength="10"
+          required
+        />
+      </fieldset>
+      <button type="submit" id="submit">Submit</button>
+      <button type="reset" id="reset">Reset</button>
+    </form>
+  </body>
+</html>

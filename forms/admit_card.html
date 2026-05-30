@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form 4</title>
+  </head>
+  <body>
+    <!-- Exam Admit card form -->
+    <h1>Admit Card Registration Form</h1>
+    <form action="index.html" method="post" enctype="multipart/form-data">
+      <fieldset>
+        <legend>Student Details</legend>
+        <label for="name">Student_name:</label>
+        <input type="text" name="name" id="name" placeholder="Name" required />
+        <label for="dob">Dob:</label>
+        <input type="date" name="dob" id="dob" required />
+      </fieldset>
+      <fieldset>
+        <legend>Exam Details</legend>
+        <label for="center">Exam Center:</label>
+        <select name="center" id="center">
+          <option value="Kulsari">Polytechnic Kulsari</option>
+          <option value="Gopeswar">Polytechnic Gopeswar</option>
+          <option value="Nanital">Polytechnic Nanital</option>
+          <option value="Haldwani">Haldwani</option>
+        </select>
+        <label for="pro_picture">Upload Pro_pictue:</label>
+        <input
+          type="file"
+          name="pro_picture"
+          id="pro_picture"
+          accept="image/*"
+        />
+      </fieldset>
+      <button type="submit">Submit your form</button>
+    </form>
+  </body>
+</html>

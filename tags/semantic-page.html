@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CloudSync - Professional Cloud Storage Solutions</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 1rem 2rem;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 2rem;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        transition: opacity 0.3s;
+      }
+
+      nav a:hover {
+        opacity: 0.8;
+      }
+
+      section {
+        padding: 3rem 2rem;
+        margin: 2rem 0;
+      }
+
+      .hero {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        text-align: center;
+        padding: 5rem 2rem;
+      }
+
+      .hero h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+
+      .hero p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+      }
+
+      .cta-button {
+        display: inline-block;
+        background: white;
+        color: #667eea;
+        padding: 0.8rem 2rem;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: transform 0.3s;
+      }
+
+      .cta-button:hover {
+        transform: scale(1.05);
+      }
+
+      .features {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .features h2 {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #667eea;
+      }
+
+      article {
+        background: #f8f9fa;
+        padding: 2rem;
+        margin-bottom: 1.5rem;
+        border-radius: 8px;
+        border-left: 4px solid #667eea;
+      }
+
+      article h3 {
+        color: #667eea;
+        margin-bottom: 0.5rem;
+      }
+
+      .pricing {
+        background: #f8f9fa;
+        padding: 3rem 2rem;
+      }
+
+      .pricing h2 {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #667eea;
+      }
+
+      .pricing-cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .card {
+        background: white;
+        padding: 2rem;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+      }
+
+      .card h4 {
+        color: #667eea;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+      }
+
+      .card .price {
+        font-size: 2rem;
+        color: #764ba2;
+        margin-bottom: 1rem;
+        font-weight: bold;
+      }
+
+      .card ul {
+        list-style: none;
+        text-align: left;
+        margin-bottom: 1.5rem;
+      }
+
+      .card ul li {
+        padding: 0.5rem 0;
+        border-bottom: 1px solid #eee;
+      }
+
+      footer {
+        background: #333;
+        color: white;
+        padding: 2rem;
+        text-align: center;
+      }
+
+      footer p {
+        margin-bottom: 0.5rem;
+      }
+
+      aside {
+        background: #fff3cd;
+        padding: 1.5rem;
+        border-radius: 5px;
+        margin: 2rem 0;
+        border-left: 4px solid #ffc107;
+      }
+
+      aside strong {
+        color: #856404;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header with Navigation -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section class="hero" id="home">
+        <h1>CloudSync - Secure Cloud Storage</h1>
+        <p>Store, sync, and share your files safely across all your devices</p>
+        <a href="#pricing" class="cta-button">Get Started</a>
+      </section>
+
+      <!-- Features Section -->
+      <section class="features" id="features">
+        <h2>Why Choose CloudSync?</h2>
+        <article>
+          <h3>⚡ Lightning Fast Sync</h3>
+          <p>
+            Synchronize your files in real-time across all devices. Every change
+            is instantly reflected wherever you access your files.
+          </p>
+        </article>
+        <article>
+          <h3>🔒 Military-Grade Security</h3>
+          <p>
+            Your files are protected with end-to-end encryption. We use the same
+            security standards as government institutions.
+          </p>
+        </article>
+        <article>
+          <h3>📱 Access Anywhere</h3>
+          <p>
+            Work on the go with our mobile apps for iOS and Android. Access your
+            files from your web browser anytime, anywhere.
+          </p>
+        </article>
+        <article>
+          <h3>👥 Easy Collaboration</h3>
+          <p>
+            Share folders and files with team members with customizable
+            permissions. Collaborate in real-time on documents.
+          </p>
+        </article>
+
+        <!-- Special Offer Aside -->
+        <aside>
+          <strong>🎉 Limited Time Offer:</strong> Sign up today and get 50% off
+          your first year! Use code: CLOUDSTART50
+        </aside>
+      </section>
+
+      <!-- Pricing Section -->
+      <section class="pricing" id="pricing">
+        <h2>Simple, Transparent Pricing</h2>
+        <div class="pricing-cards">
+          <!-- Free Plan -->
+          <figure class="card">
+            <h4>Free</h4>
+            <div class="price">$0</div>
+            <figcaption>Perfect to get started</figcaption>
+            <ul>
+              <li>✓ 5GB storage</li>
+              <li>✓ Basic sync</li>
+              <li>✓ Email support</li>
+              <li>✗ Team collaboration</li>
+              <li>✗ Advanced security</li>
+            </ul>
+            <a href="#" class="cta-button">Sign Up Free</a>
+          </figure>
+
+          <!-- Pro Plan -->
+          <figure class="card">
+            <h4>Pro</h4>
+            <div class="price">$9.99/mo</div>
+            <figcaption>For power users</figcaption>
+            <ul>
+              <li>✓ 1TB storage</li>
+              <li>✓ Priority sync</li>
+              <li>✓ Priority support</li>
+              <li>✓ Team collaboration</li>
+              <li>✓ Version history</li>
+            </ul>
+            <a href="#" class="cta-button">Choose Pro</a>
+          </figure>
+
+          <!-- Business Plan -->
+          <figure class="card">
+            <h4>Business</h4>
+            <div class="price">$19.99/mo</div>
+            <figcaption>For teams & enterprises</figcaption>
+            <ul>
+              <li>✓ Unlimited storage</li>
+              <li>✓ Fastest sync</li>
+              <li>✓ 24/7 phone support</li>
+              <li>✓ Advanced admin tools</li>
+              <li>✓ Custom branding</li>
+            </ul>
+            <a href="#" class="cta-button">Choose Business</a>
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact">
+      <p>&copy; 2026 CloudSync. All rights reserved.</p>
+      <p>Email: support@cloudsync.com | Phone: 1-800-CLOUD-SYNC</p>
+      <p>
+        <a href="#" style="color: #667eea; text-decoration: none"
+          >Privacy Policy</a
+        >
+        |
+        <a href="#" style="color: #667eea; text-decoration: none"
+          >Terms of Service</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
