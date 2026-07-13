@@ -1,37 +1,43 @@
-# Html-Course
+# 🗺️ HTML Markup Lab
 
-Welcome to my HTML Course repository! This project is a collection of various web pages created to learn and practice the core concepts of HTML.
-
-## 🚀 Project Overview
-
-This repository contains a structured set of web pages built entirely using **pure HTML**. No CSS or JavaScript has been used yet, as the main focus is to understand semantic elements, page structure, forms, and navigation.
-
-## 📁 What's Inside This Project?
-
-- **Homepage (`homepage.html`):** The main landing page connecting all other files.
-- **Forms (`form1.html`, `form2.html`, `surveyform.html`):** Practice pages for user inputs, text fields, radio buttons, and checkboxes.
-- **Tables & Lists:** Structured layouts using HTML tables, ordered lists, and unordered lists for menus.
-- **Media Integration:** Handling images (`.jpg`, `.png`) and audio/video files within the pages.
-- **Input Types:** Exploring different HTML5 input attributes.
-
-## 🛠️ Concepts Learned
-
-- HTML5 Semantic Tags (`<header>`, `<nav>`, `<div>`, etc.)
-- Creating hyperlinks (`<a>`) to navigate between local pages
-- Designing forms and managing user input fields
-- Embedding multimedia elements (Images, Audio, Video)
-- Creating lists (`<ul>`, `<ol>`) for navigation menus
+Welcome to my HTML learning repository! This project serves as a comprehensive laboratory where I practice semantic HTML5 structures, forms, tables, media handling, and essential web layout tags.
 
 ---
 
-## 🗺️ Web Development Journey Roadmap
+### 📂 Repository Structure & Highlights
 
-I have created an interactive roadmap checklist to track my progress throughout my web development journey.
+This lab is organized into modular folders, each targeting specific core areas of web development:
 
-- **Location:** Inside the `Roadmap for web developer` directory
-- **File:** `web-dev-roadmap.html`
-- **Features:** It contains an 8-month frontend curriculum with interactive checkboxes to mark topics as completed.
+* **`assets/`** – Media handling practice including audio (`.mp3`) and video (`.mp4`) elements.
+* **`forms/`** – Advanced and basic form implementations (detailed below).
+* **`image/`** – Dynamic image embedding and asset organization (`.jpg`, `.png`).
+* **`input_types/`** – Deep dive into various HTML5 input fields and attributes.
+* **`pages/`** – Standard multi-page components like menus and structured resumes.
+* **`Project/`** – Mini-projects putting concepts together (College Home, Portfolio, and Index pages).
+* **`table/`** – Data representation using structured HTML tables.
+* **`tags/`** – Detailed experiments with core blocks, semantic layouts, and link tags.
 
 ---
 
-_Created as part of my web development learning journey._
+### 🚀 Featured Mini-Projects
+
+Inside the **`Project/`** folder, I have combined multiple HTML concepts to build realistic web layouts:
+
+1. **🏫 College Home Page (`college_home.html`)**
+   - A complete institutional landing page structure featuring college details, department layouts, and navigation headers.
+2. **📑 Index Page (`index.html`)**
+   - Serves as the central hub and a dedicated professional **Resume Page** showcasing education, skills, and personal background.
+3. **💼 Portfolio Page (`portfolio.html`)**
+   - A personal showcase layout designed to display project details, technical achievements, and contact information.
+
+---
+
+### 📝 Core Focus: HTML Forms Practice
+
+Inside the `forms/` directory, I have deeply explored form architectures across different compliance and layout styles:
+
+> [!NOTE]
+> **Form Types Breakdown:**
+> * **`form1.html` (Basic Input Types):** Focused on text inputs, standard controls, submissions, and basic user data collection.
+> * **`form2.html` (Structured Semantic Forms):** Implemented group layouts using **`<fieldset>`** and **`<legend>`** tags to build production-grade, accessible, and well-organized form structures.
+> * **`admit_card.html` & `surveyform.html`:** Practical real-world applications combining complex input validations and user experience scenarios.
