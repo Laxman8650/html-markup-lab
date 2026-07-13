@@ -8,14 +8,14 @@ Welcome to my HTML learning repository! This project serves as a comprehensive l
 
 This lab is organized into modular folders, each targeting specific core areas of web development:
 
-* **`assets/`** – Media handling practice including audio (`.mp3`) and video (`.mp4`) elements.
-* **`forms/`** – Advanced and basic form implementations (detailed below).
-* **`image/`** – Dynamic image embedding and asset organization (`.jpg`, `.png`).
-* **`input_types/`** – Deep dive into various HTML5 input fields and attributes.
-* **`pages/`** – Standard multi-page components like menus and structured resumes.
-* **`Project/`** – Mini-projects putting concepts together (College Home, Portfolio, and Index pages).
-* **`table/`** – Data representation using structured HTML tables.
-* **`tags/`** – Detailed experiments with core blocks, semantic layouts, and link tags.
+- **`assets/`** – Media handling practice including audio (`.mp3`) and video (`.mp4`) elements.
+- **`forms/`** – Advanced and basic form implementations (detailed below).
+- **`image/`** – Dynamic image embedding and asset organization (`.jpg`, `.png`).
+- **`input_types/`** – Deep dive into various HTML5 input fields and attributes.
+- **`pages/`** – Standard multi-page components like menus and structured resumes.
+- **`Project/`** – Mini-projects putting concepts together (College Home, Portfolio, and Index pages).
+- **`table/`** – Data representation using structured HTML tables.
+- **`tags/`** – Detailed experiments with core blocks, semantic layouts, and link tags.
 
 ---
 
@@ -38,6 +38,7 @@ Inside the `forms/` directory, I have deeply explored form architectures across 
 
 > [!NOTE]
 > **Form Types Breakdown:**
-> * **`form1.html` (Basic Input Types):** Focused on text inputs, standard controls, submissions, and basic user data collection.
-> * **`form2.html` (Structured Semantic Forms):** Implemented group layouts using **`<fieldset>`** and **`<legend>`** tags to build production-grade, accessible, and well-organized form structures.
-> * **`admit_card.html` & `surveyform.html`:** Practical real-world applications combining complex input validations and user experience scenarios.
+>
+> - **`form1.html` (Basic Input Types):** Focused on text inputs, standard controls, submissions, and basic user data collection.
+> - **`form2.html` (Structured Semantic Forms):** Implemented group layouts using **`<fieldset>`** and **`<legend>`** tags to build production-grade, accessible, and well-organized form structures.
+> - **`admit_card.html` & `surveyform.html`:** Practical real-world applications combining complex input validations and user experience scenarios.
